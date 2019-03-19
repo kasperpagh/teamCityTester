@@ -10,7 +10,7 @@ router.get('/', function (req, res, next)
 
 router.get('/test', function(req,res,next)
 {
-    res.end("hej fra Node")
+    res.end("hej fra Node og TC")
 });
 
 module.exports = router;
